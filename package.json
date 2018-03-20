@@ -1,0 +1,23 @@
+{
+  "name": "silly-healthcheck",
+  "version": "0.1.0",
+  "description": "Really simple healthcheck node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandack/silly-healthcheck.git"
+  },
+  "keywords": [
+    "healthcheck",
+    "healthprobe"
+  ],
+  "author": "Ivan Dackiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivandack/silly-healthcheck/issues"
+  },
+  "homepage": "https://github.com/ivandack/silly-healthcheck#readme"
+}
