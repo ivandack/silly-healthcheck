@@ -2,9 +2,10 @@
   "name": "silly-healthcheck",
   "version": "0.1.0",
   "description": "Really simple healthcheck node app",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint bin test --fix",
+    "test": "mocha && npm run lint"
   },
   "repository": {
     "type": "git",
@@ -14,10 +15,21 @@
     "healthcheck",
     "healthprobe"
   ],
-  "author": "Ivan Dackiewicz",
+  "author": {
+    "name": "Ivan Dackiewicz",
+    "email": "ivandack@gmail.com",
+    "url": "https://github.com/ivandack"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivandack/silly-healthcheck/issues"
   },
-  "homepage": "https://github.com/ivandack/silly-healthcheck#readme"
+  "homepage": "https://github.com/ivandack/silly-healthcheck#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-modular": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
 }

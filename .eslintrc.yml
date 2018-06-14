@@ -1,0 +1,19 @@
+# ESLint config
+# http://eslint.org/docs/user-guide/configuring
+# https://github.com/BigstickCarpet/eslint-config-modular
+
+root: true
+
+extends:
+  - modular/best-practices
+  - modular/style
+  - modular/es6
+  - modular/node
+
+rules:
+  brace-style: 
+    - warn
+    - 1tbs
+  space-before-function-paren:
+    - warn
+    - never
